@@ -1,16 +1,15 @@
 package com.sk.other;
 
 final class MyImmutable {
-
-	private int id;
-	private String name;
+   // set property as private and final 
+	private final int id;
+	private final String name;
 
 	public MyImmutable(int id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
 	}
-
 	public int getId() {
 		return id;
 	}
