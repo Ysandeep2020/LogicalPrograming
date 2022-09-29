@@ -6,7 +6,6 @@ final class MyImmutable {
 	private final String name;
 
 	public MyImmutable(int id, String name) {
-		super();
 		this.id = id;
 		this.name = name;
 	}
